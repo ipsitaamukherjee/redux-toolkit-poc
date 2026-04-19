@@ -1,9 +1,10 @@
+import Layout from './components/Layout'
 import './App.css'
 
 function App() {
- return (
-  <p id='center'>Welcome to Vite + React!</p>
- )
+  return (
+    <Layout />
+  )
 }
 
 export default App
